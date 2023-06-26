@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+*{
+   
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+         background-color: aqua;
+    width: 100%;
+    height: 100vh;
+    background-image: url(Imagem/motobrancaP.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10%;
+    transition: background-image 0.3s;
+   
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Navbar{
+
+    text-align: center;
+   list-style: none;
+   display: flex;
+   font-weight: bold;
+   transition: 0.5s ;
+}
+.Navbar a{
+    
+    color: rgb(255, 0, 0);
+    display: inline-flex;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    
+    border-radius: 15px;
+    
+    
+}
+
+.Navbar a:hover{
+    
+    color: rgb(255, 0, 0);
+}
+
+.test{
+    position: absolute;
+    left: 91%;
+    top: 1%;
+}
+ 
+
+
+
+
+#logo{
+    position: absolute;
+    top: -7%;
+    left: -3%;
+    padding: 72px;
+    height: 233px;
+}
+
+
+
+.content{
+    margin-top: 10%;
+    }
+.content h2{
+    color: red;
+    font-size: 34px;
+}
+.content h1{
+    font-size: 100px;
+    color: #333;
+    margin-top: -20px;
+}
+.content p{
+    max-width: 500px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #555;
+
+}
+
+.content h3{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.suacor div{
+    cursor: pointer;
+    background: #000000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px
+}
+.suacor {
+    display: flex;
+    margin-top: 30px;
+}
+.suacor #cinza {
+    background: rgb(135, 136, 134);
+    transition: 0.3s ease-in-out;
+}
+
+.suacor #cinza:hover {
+    transform: translateY(-10px);
+}
+
+.suacor #vermelho {
+    background: rgb(255, 0, 0);
+    transition: 0.3s ease-in-out;
+}
+
+.suacor #vermelho:hover {
+    transform: translateY(-10px);
+}
+
+.suacor #verde {
+    background: rgb(244, 248, 245);
+    transition: 0.3s ease-in-out;
+}
+
+.suacor #verde:hover {
+    transform: translateY(-10px);
+}
+button{
+    background-color: #555;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 30px;
+    margin: 20px 0 -20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border: 0;
+}
+button:hover {
+    background: #222;
+    transform: translateY(-10px);
+}
+
+
+#bike {
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10%;
+    transition: background-image 0.3s;
+    background-repeat: no-repeat;
+    background-position: 800px;
+  background-size: 1002px;
+}

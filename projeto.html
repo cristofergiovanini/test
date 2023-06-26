@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendas</title>
+    <link rel="stylesheet" href="vendas.css">
+    
+</head>
+<body>
+    <div class="container" id="bike">
+   <nav>
+    <img src="Imagem/logomarca.png" id="logo" alt="">
+   
+   <ul class="Navbar">
+    <li> <a href="#"> INICIO</a></li>
+    <li> <a href="#"> SOBRE</a></li>
+    <li><a href="#"> Serviços</a></li>
+    <li><a href="#"> CONTATO</a></li>
+    <li><a href="#" class="test">TEST Drive</a></li>
+   </ul>
+   <ul>
+
+</nav>
+<div class="content">
+    <h2>VESPA SPRINT</h2>
+    <h1>S 150 ABS</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum delectus vel minima asperiores placeat eaque vero laudantium nulla iste architecto, cupiditate harum consequuntur atque facere quo earum officiis eligendi. Illum.</p>
+    <button> SABER MAIS.</button>
+    <h3>ESCOLHA SUA COR</h3>
+   <div class="suacor">
+   <div id="verde"></div>
+   <div id="vermelho"></div>
+   <div id="cinza"></div>
+</div>
+
+
+
+<script src="script.js">
+    let greyBtn = document.getELementByid('cinza')
+    let redBtn = document.getElementById('vermelho')
+    let greenBtn = document.getElementById('verde')
+    let bike = document.getElementById('bike')
+
+    greyBnt.onclick = function () {
+        bike.style.backgroundImage = "url (Imagem/motobranca.png)";
+    };
+    redBtn.onclick = function () {
+        bike.style.backgroundImage = "url (Imagem/motovermelha.png)";
+    };
+    greenBtn.onclick = function () {
+        bike.style.backgroundImage = "url (Imagem/motocinza.jpg)";
+    };
+</script>
+
+</body>
+</html>
